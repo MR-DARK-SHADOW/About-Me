@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
         .card {
             width: 300px;
             padding: 20px;
             border-radius: 10px;
-            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-
         img {
             width: 100px;
             height: 100px;
@@ -23,13 +31,11 @@
         }
     </style>
 </head>
-
 <body>
     <div class="card">
-        <img src="https://avatars.githubusercontent.com/u/124597615?v=4" alt="Your Photo">
+        <img src="your-photo.jpg" alt="Your Photo">
         <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
 </body>
-
 </html>
